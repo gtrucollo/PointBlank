@@ -5,5 +5,5 @@ using Entities;
 
 public interface IAccountRepository : IRepository<Account>
 {
-    Task<Account> GetByName(string name);
+    Task<Account?> GetByName(string name);
 }
